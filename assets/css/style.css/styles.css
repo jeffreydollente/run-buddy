@@ -209,3 +209,26 @@ section {
       font-size: 17px;
       line-height: 1.3;
   }
+    /* Meet The Trainers Style Ends */
+
+    /* Contact Info Style Start */
+.contact-info {
+    text-align: center;
+    background: #024e76;
+}
+.contact-info {
+    width: 900px;
+    margin: 30px auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+    float: inlne-block;
+}
+.contact {
+    text-align: center;
+    color: #fce138;
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+}

@@ -48,7 +48,7 @@ header nav ul {
     align-items: center;
     list-style: none;
 }
-nav ul li a {
+header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.5vw;
@@ -137,14 +137,12 @@ section {
 /* Hero Style End */
 
 /* What We Do Style Start */
-.intro {
-    text-align: center;
-}
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
+    text-align: center;
 }
 .intro p {
     /* add this alongside your other declarations */
@@ -184,10 +182,10 @@ section {
 }
 .step h3 {
     color: #024e76;
-    flex: 30%;
+    flex: 1 30%;
 }
 .step-info {
-    flex: 70%;
+    flex: 2 70%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -215,13 +213,17 @@ section {
 
   /* Meet The Trainers Style Start */
 .trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   .trainer {
-      width: 900px;
-      margin: 0 auto 30px auto;
+      margin: 20px;
       background: #024e76;
       color: #fce138;
-      overflow: auto;
+      flex: 1;
   }
   .trainer img {
       width: 35%;
@@ -241,7 +243,7 @@ section {
   }
   .trainer-bio h3 {
       font-size: 28px;
-      margin-bottom: 
+      margin-bottom:auto 
   }
   .trainer-bio h4 {
       font-weight: lighter;
@@ -263,11 +265,12 @@ section {
 
 .section-title {
     font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    margin-bottom: 35px;
     color: #024e76;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 .secondary-border {
     border-color: #39a6b2;

@@ -461,14 +461,6 @@ div:hover .trainer-img {
     color: var(--primary-color);
     background: var(--tertiary-color);
   }
-  .contact-form input, .contact-form textarea {
-      /* add a transparent background here */
-  }
-
-  /* create a new css rule for focus state */
-  .contact-form input:focus, .contact-form textarea:focus {
-
-  }
     /*--Reach Out Style End */
 
 .flex-row {
@@ -637,4 +629,4 @@ div:hover .trainer-img {
       .contact-form {
           order: 3;
       }
-    }
+    }}
